@@ -1,11 +1,11 @@
 import domBuilder from '../components/shared/domBuilder';
 import navBar from '../components/shared/navBar';
-import { getVocabulary } from '../api/vocabularyData';
-import vocabularyFormEvents from '../events/formEvents';
-import { showVocabulary } from '../pages/vocabulary';
-import navEvents from '../events/navEvents';
 import logoutButton from '../components/buttons/logoutButton';
 import domEvents from '../events/domEvents';
+import { getVocabulary } from '../api/vocabularyData';
+import { showVocabulary } from '../pages/vocabulary';
+import vocabularyFormEvents from '../events/formEvents';
+import navEvents from '../events/navEvents';
 
 const startApp = (user) => {
   domBuilder(user);
