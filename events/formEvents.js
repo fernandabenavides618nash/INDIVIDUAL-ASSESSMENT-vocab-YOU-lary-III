@@ -1,17 +1,17 @@
 import { createVocabulary, getVocabulary, updateVocabulary } from '../api/vocabularyData';
 import { showVocabulary } from '../pages/vocabulary';
-import time from '../utils/time';
+import thisTime from '../utils/time';
 
 const vocabularyFormEvents = (user) => {
   document.querySelector('#main-div').addEventListener('submit', (e) => {
     e.preventDefault();
     // SUBMITTING VOCABULARY
-    if (e.targer.id.includes('submitVocabulary')) {
+    if (e.target.id.includes('submitVocabulary')) {
       const payload = {
         definition: document.querySelector('#definition').value,
-        title: document.querySelector('#title').vallue,
+        title: document.querySelector('#title').value,
         language: document.querySelector('#language').value,
-        time: time(),
+        time: thisTime,
         uid: user.uid
       };
       createVocabulary(payload).then(({ name }) => {
@@ -28,7 +28,7 @@ const vocabularyFormEvents = (user) => {
         definition: document.querySelector('#definition').value,
         title: document.querySelector('#title').vallue,
         language: document.querySelector('#language').value,
-        time: time(),
+        time: thisTime,
         uid: user.uid,
         firebaseKey
       };
