@@ -1,4 +1,5 @@
-const thisTime = new Date();
-const time = thisTime.getTime();
+const date = new Date();
+const thisTime = date.getTime();
 
-export default time;
+export default thisTime;
+// fixed on main by mistake

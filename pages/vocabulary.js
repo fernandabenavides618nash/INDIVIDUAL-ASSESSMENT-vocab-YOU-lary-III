@@ -15,7 +15,7 @@ const showVocabulary = (array) => {
   array.forEach((item) => {
     domString += `
         <div class="card">
-            <h5 class="card-header">${item.tittle}</h5>
+            <h5 class="card-header">${item.title}</h5>
             <div class="card-body">
                 <h5 class="card-title">${item.language}</h5>
                 <p class="card-text">${item.definition}</p>
