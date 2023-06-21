@@ -22,7 +22,7 @@ const vocabularyFormEvents = (user) => {
       });
     }
     // EDDITING VOCABULARY
-    if (e.target.id.includes('#edit-card')) {
+    if (e.target.id.includes('edit-card')) {
       const [, firebaseKey] = e.target.id.split('--');
       const payload = {
         definition: document.querySelector('#definition').value,

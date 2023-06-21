@@ -3,6 +3,7 @@ import {
   getVocabulary, filterHtmlVocabulary, filterCssVocabulary, filterJsVocabulary
 } from '../api/vocabularyData';
 import { showVocabulary } from '../pages/vocabulary';
+// import clearDom from '../utils/clearDom';
 
 const navEvents = (user) => {
   document.querySelector('#logoutBtn').addEventListener('click', signOut); // SIGN-OUT

@@ -1,4 +1,5 @@
 import firebase from 'firebase/app';
+import clearDom from './clearDom';
 import 'firebase/auth';
 
 const signIn = () => {
@@ -8,6 +9,7 @@ const signIn = () => {
 
 const signOut = () => {
   firebase.auth().signOut();
+  clearDom();
 };
 
 export { signIn, signOut };
