@@ -3,12 +3,12 @@ import renderToDom from '../utils/renderToDom';
 
 const emptyVocabulary = () => {
   const domStrig = '<h1>No Vocabulary</h1>';
-  renderToDom('#vocabularyContaine', domStrig);
+  renderToDom('#vocabularyContainer', domStrig);
 };
 
 const showVocabulary = (array) => {
   clearDom();
-
+  console.warn(array);
   const btnString = '<button class="btn btn-success btn-lg mb-4" id="addAVocabualryBtn">Create Vocabulary</button>';
   renderToDom('#addVocabularyBtn', btnString);
   let domString = '';

@@ -9,7 +9,7 @@ const vocabularyFormEvents = (user) => {
     if (e.targer.id.includes('submitVocabulary')) {
       const payload = {
         definition: document.querySelector('#definition').value,
-        tittle: document.querySelector('#title').vallue,
+        title: document.querySelector('#title').vallue,
         language: document.querySelector('#language').value,
         time: time(),
         uid: user.uid
@@ -22,11 +22,11 @@ const vocabularyFormEvents = (user) => {
       });
     }
     // EDDITING VOCABULARY
-    if (e.target.id.includes('edit-card')) {
+    if (e.target.id.includes('#edit-card')) {
       const [, firebaseKey] = e.target.id.split('--');
       const payload = {
         definition: document.querySelector('#definition').value,
-        tittle: document.querySelector('#title').vallue,
+        title: document.querySelector('#title').vallue,
         language: document.querySelector('#language').value,
         time: time(),
         uid: user.uid,
