@@ -7,7 +7,7 @@ const addVocabularyForm = (obj = {}) => {
         <form id="${obj.firebaseKey ? `editVocabulary--${obj.firebaseKey}` : 'submitVocabulary'}">
         <div class="mb-3">
             <label for="title">Title</label>
-            <input type="text" class="form-control" id="title" aria-describedby="cardHelp" placeholder="Vocabulary Title" value="${obj.title || ''}" required>
+            <input type="text" class="form-control" id="title" aria-describedby="vocabularyTitle" placeholder="Vocabulary Title" value="${obj.title || ''}" required>
         </div>
         <div class="mb-3">
             <label for="definition">Definition</label>

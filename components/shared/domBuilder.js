@@ -5,8 +5,8 @@ const domBuilder = () => {
     <div id="navBar"></div>
     <div id="main-div">
         <div id="addVocabularyBtn"></div>
-        <div id="#addVocabularyForm"></div>
-        <div id="#vocabularyContainer"></div>
+        <div id="addVocabularyForm"></div>
+        <div id="vocabularyContainer"></div>
     </div>
     `;
   renderToDom('#app', domString);
