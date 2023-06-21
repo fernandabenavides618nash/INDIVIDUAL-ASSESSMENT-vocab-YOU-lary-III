@@ -1,0 +1,50 @@
+{
+  "-NYOAZPnbGoLn6bk7c5p": {
+    "definition": "An impressive display or range of a partiular type of thing",
+    "firebaseKey": "-NYOAZPnbGoLn6bk7c5p",
+    "language": "javaScript",
+    "time": "",
+    "title": "arrays",
+    "uid": ""
+  },
+  "-NYOB4bH9dJFhhKLe6uq": {
+    "definition": "Combination of variables, fuctions and data structures",
+    "firebaseKey": "-NYOB4bH9dJFhhKLe6uq",
+    "language": "javaScript",
+    "time": "",
+    "title": "objects",
+    "uid": ""
+  },
+  "-NYOBaTZCao0F2aBw7fb": {
+    "definition": "The <a> tag defines a hyperlink, which is used to link from one page to another.",
+    "firebaseKey": "-NYOBaTZCao0F2aBw7fb",
+    "language": "html",
+    "time": "",
+    "title": "a-tag",
+    "uid": ""
+  },
+  "-NYOC2tPfyzvyE4Ruu3W": {
+    "definition": "Used to embed a client-side script",
+    "firebaseKey": "-NYOC2tPfyzvyE4Ruu3W",
+    "language": "html",
+    "time": "",
+    "title": "script-tag",
+    "uid": ""
+  },
+  "-NYOCUAFQUnXuVdxv5jT": {
+    "definition": "the style that you are appliying to a selector",
+    "firebaseKey": "-NYOCUAFQUnXuVdxv5jT",
+    "language": "css",
+    "time": "",
+    "title": "property",
+    "uid": ""
+  },
+  "-NYOCkbF4MsFEtwKf13b": {
+    "definition": "The set of property names and values",
+    "firebaseKey": "-NYOCkbF4MsFEtwKf13b",
+    "language": "css",
+    "time": "",
+    "title": "declaration",
+    "uid": ""
+  }
+}
