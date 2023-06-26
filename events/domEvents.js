@@ -16,7 +16,7 @@ const domEvents = (user) => {
     }
     // ADDING VOCABULLARY
     if (e.target.id.includes('addAVocabualryBtn')) {
-      addVocabularyForm({}, user);
+      addVocabularyForm(user);
     }
     // UPDATING VOCABULARY
     if (e.target.id.includes('editVocabularyBtn')) {

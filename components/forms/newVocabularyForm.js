@@ -1,10 +1,11 @@
 import clearDom from '../../utils/clearDom';
 import renderToDom from '../../utils/renderToDom';
 
-const addVocabularyForm = (obj = {}) => {
+const addVocabularyForm = (obj) => {
+  console.warn('New vocabulary Form', obj);
   clearDom();
   const domString = `
-        <form id="${obj.firebaseKey ? `editVocabulary--${obj.firebaseKey}` : 'submitVocabulary'}">
+        <form id="${obj.firebaseKey ? `edit-card--${obj.firebaseKey}` : 'submitVocabulary'}">
         <div class="mb-3">
             <label for="title">Title</label>
             <input type="text" class="form-control" id="title" aria-describedby="vocabularyTitle" placeholder="Vocabulary Title" value="${obj.title || ''}" required>
