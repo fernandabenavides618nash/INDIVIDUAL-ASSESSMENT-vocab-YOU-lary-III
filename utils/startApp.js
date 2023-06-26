@@ -12,8 +12,8 @@ const startApp = (user) => {
   domEvents(user);
   vocabularyFormEvents(user);
   navBar();
-  logoutButton();
   navEvents(user);
+  logoutButton();
   getVocabulary(user.uid).then((vocabulary) => showVocabulary(vocabulary));
 };
 

@@ -10,13 +10,14 @@ const navEvents = (user) => {
   document.querySelector('#allVocabulary').addEventListener('click', () => {
     getVocabulary(user.uid).then(showVocabulary); // ALL VOCABULARY
   });
-  document.querySelector('#filterHtml').addEventListener('clicl', () => {
+  document.querySelector('#filterHtml').addEventListener('click', () => {
+    // console.warn('html filter clicked');
     filterHtmlVocabulary(user.uid).then(showVocabulary); // HTML VOCABULARY
   });
-  document.querySelector('#filterCss').addEventListener('clicl', () => {
+  document.querySelector('#filterCss').addEventListener('click', () => {
     filterCssVocabulary(user.uid).then(showVocabulary); // CSS VOCABULARY
   });
-  document.querySelector('#filterJavaScript').addEventListener('clicl', () => {
+  document.querySelector('#filterJavaScript').addEventListener('click', () => {
     filterJsVocabulary(user.uid).then(showVocabulary); // JAVASCRIPT VOCABULARY
   });
 };

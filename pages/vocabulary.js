@@ -19,8 +19,8 @@ const showVocabulary = (array) => {
             <div class="card-body">
                 <h5 class="card-title">${item.language}</h5>
                 <p class="card-text">${item.definition}</p>
-                <button class="btn btn-primary" id='editVocabularyBtn--${item.firebasekey}' >Edit Vocabulary</button>
-                <button class="btn btn-primary" id='deleteVocabularyBtn--${item.firebasekey}' >Delete Vocabulary</button>
+                <button class="btn btn-primary" id='editVocabularyBtn--${item.firebaseKey}' >Edit Vocabulary</button>
+                <button class="btn btn-primary" id='deleteVocabularyBtn--${item.firebaseKey}' >Delete Vocabulary</button>
             </div>
         </div>`;
   });

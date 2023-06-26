@@ -79,7 +79,7 @@ const filterHtmlVocabulary = (uid) => new Promise((resolve, reject) => {
   })
     .then((response) => response.json())
     .then((data) => {
-      const htmlWords = Object.values(data).filter((obj) => obj.language === 'HTML');
+      const htmlWords = Object.values(data).filter((obj) => obj.language === 'html');
       resolve(htmlWords);
     })
     .catch(reject);
@@ -94,7 +94,7 @@ const filterCssVocabulary = (uid) => new Promise((resolve, reject) => {
   })
     .then((response) => response.json())
     .then((data) => {
-      const cssWords = Object.values(data).filter((obj) => obj.language === 'CSS');
+      const cssWords = Object.values(data).filter((obj) => obj.language === 'css');
       resolve(cssWords);
     })
     .catch(reject);
